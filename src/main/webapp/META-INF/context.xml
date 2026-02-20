@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+    <Resource
+            name="jdbc/TestDB"
+            auth="Container"
+            type="javax.sql.DataSource"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/test_db?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true"
+            username="labuser"
+            password="labpass"
+
+
+
+            maxTotal="20"
+            maxIdle="5"
+            maxWaitMillis="10000"
+    />
+
+</Context>
+
