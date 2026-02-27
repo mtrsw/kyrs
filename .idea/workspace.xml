@@ -9,11 +9,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0655e27-0369-46a9-aedc-d59c737944d8" name="Changes" comment="Initial commit - kyrs(final)" />
+    <list default="true" id="b0655e27-0369-46a9-aedc-d59c737944d8" name="Changes" comment="Initial commit - kyrs(final)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/prakticum/kyrs/model/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/prakticum/kyrs/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/prakticum/kyrs/model/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/prakticum/kyrs/servlet/FilterByGroupServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/prakticum/kyrs/servlet/FilterBySubjectServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/prakticum/kyrs/servlet/StatsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/prakticum/kyrs/servlet/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/filter-group.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/filter-subject.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/stats.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/students.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/prakticum/lab7/dao/TestResultDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/prakticum/kyrs/dao/TestResultDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/prakticum/lab7/model/TestResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/prakticum/kyrs/model/TestResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/prakticum/lab7/servlet/AddResultServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/prakticum/kyrs/servlet/AddResultServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/prakticum/lab7/servlet/DeleteResultServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/prakticum/kyrs/servlet/DeleteResultServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/prakticum/lab7/servlet/ListResultsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/prakticum/kyrs/servlet/ListResultsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/prakticum/lab7/servlet/SearchResultsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/prakticum/kyrs/servlet/SearchResultsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/web/WEB-INF/web.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,12 +57,16 @@
     &quot;assignee&quot;: &quot;mtrsw&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mtrsw/lab7_1.git",
-    "accountId": "1d044a94-0901-4e35-aaa6-6fc00c0742e4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mtrsw/kyrs.git&quot;,
+    &quot;accountId&quot;: &quot;1d044a94-0901-4e35-aaa6-6fc00c0742e4&quot;
   }
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -53,24 +90,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Tomcat Server.Tomcat 10.1.49.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/roman/IdeaProjects/kyrs",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.49.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/roman/IdeaProjects/kyrs&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationStatuses">
       <map>
@@ -194,7 +231,12 @@
       <workItem from="1771703127910" duration="732000" />
       <workItem from="1771705101694" duration="294000" />
       <workItem from="1771705409811" duration="1030000" />
-      <workItem from="1771706457620" duration="4557000" />
+      <workItem from="1771706457620" duration="15908000" />
+      <workItem from="1771857492761" duration="6113000" />
+      <workItem from="1771938407368" duration="1723000" />
+      <workItem from="1771955552090" duration="5402000" />
+      <workItem from="1772124448530" duration="9690000" />
+      <workItem from="1772219806671" duration="2971000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit - kyrs(final)">
       <option name="closed" value="true" />
@@ -204,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771714489211</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit - kyrs(final)">
+      <option name="closed" value="true" />
+      <created>1771715753183</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771715753183</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +265,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
